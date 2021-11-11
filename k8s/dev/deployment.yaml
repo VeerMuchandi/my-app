@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: app   # Must match base value
-        image: my-app  # Overwrites values from base - Needs to match skaffold artifact
+        image: demo-app  # Overwrites values from base - Needs to match skaffold artifact
         resources:
           requests:
             cpu: 25m

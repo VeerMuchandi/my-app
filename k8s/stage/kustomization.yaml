@@ -17,6 +17,6 @@ bases:
 patches:
 - deployment.yaml
 commonLabels:
-  app: my-app
+  app: demo-app
   role: backend
-namePrefix: my-app-
+namePrefix: demo-app-

@@ -15,9 +15,9 @@
 apiVersion: deploy.cloud.google.com/v1beta1
 kind: DeliveryPipeline
 metadata:
-  name: my-app
+  name: demo-app
   labels:
-    app: my-app
+    app: demo-app
 description: delivery pipeline
 serialPipeline:
   stages:

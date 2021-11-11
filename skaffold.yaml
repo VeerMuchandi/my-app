@@ -16,7 +16,7 @@ apiVersion: skaffold/v1beta14
 kind: Config
 build:
   artifacts:
-  - image: my-app # Match name in deployment yaml
+  - image: demo-app # Match name in deployment yaml
     context: ./
 deploy:
   kustomize:

@@ -16,7 +16,7 @@ bases:
 - ../../../kustomize-base/golang
 patches:
 - deployment.yaml
-namePrefix: "my-app-" # App name (dash)
+namePrefix: "demo-app-" # App name (dash)
 commonLabels:
-  app: my-app # App name for selectors
+  app: demo-app # App name for selectors
   role: backend

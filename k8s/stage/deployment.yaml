@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: app
-        image: my-app
+        image: demo-app
         resources:
           requests:
             cpu: 25m
